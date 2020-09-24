@@ -1,0 +1,182 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.form-wrapper {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 1px;
+  box-shadow: 0px 0px 5px #555;
+  background-color: #ffffff;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title_signup {
+  text-align: center;
+  font-size: 12.5px;
+  margin-bottom: 40px;
+  width: 100%;
+  color: #111;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.title_create_account
+{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #111;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.title_lorem
+{
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #111;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+.firstName,
+.lastName,
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.firstName,
+.lastName,
+.email,
+.password {
+  width: 100%;
+}
+
+
+.btn-login-facebook
+{
+  text-decoration: none;
+  font-size: 12.5px;
+  padding: 10px 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  box-shadow: 0px 2px 2px #bfbfbf;
+  margin: 15px;
+}
+.btn-login-google
+{
+  text-decoration: none;
+  font-size: 12.5px;
+  padding: 10px 10px;
+  display: inline-block;
+  box-shadow: 0px 2px 2px #bfbfbf;
+  margin: 15px;
+}
+
+.submit-btn:link,
+.submit-btn:visited{
+  text-transform: uppercase;
+  text-align: center;
+  width:350px;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px #bfbfbf;
+    background-color:   #00aaff;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+h4 
+{ 
+    display: flex; 
+    flex-direction: row; 
+} 
+h4:before, 
+h4:after 
+{ 
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 1px solid #a6a6a6; 
+    margin :auto;
+} 
+
+i{
+  margin : 5px;
+}
+a:link {
+  color: black;
+}
+
+.align-div
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      margin-left: auto;
+    margin-right: auto;
+}
