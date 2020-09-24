@@ -53,7 +53,7 @@ export default class App extends React.Component {
               <input 
                 type="password" 
                 className="" 
-                placeholder="Pass" 
+                placeholder="Password" 
                 name="password"
                 noValidate
               />
